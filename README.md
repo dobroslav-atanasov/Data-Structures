@@ -1,6 +1,3 @@
-# Data-Structures
-SoftUni course Data Structures
-
 # Softuni course: [Data Structures](https://softuni.bg/trainings/1857/data-structures-january-2018)
 SoftUni course Data Structures - January 2018: All tasks with their solutions.
 
@@ -12,7 +9,6 @@ SoftUni course Data Structures - January 2018: All tasks with their solutions.
 
 №  |Theme                          | Exercises
 ---|-------------------------------|----------
-1  |Linear Data Structures - Lists | [Lab]()
-2  |                               |
+1  |Linear Data Structures - Lists | [Lab](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/01.%20LinearDataStructuresLists-Lab)
 
-### [Resources]()
+### [Resources](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/Resources)
