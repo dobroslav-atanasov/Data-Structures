@@ -12,6 +12,7 @@ SoftUni course Data Structures - January 2018: All tasks with their solutions.
 
 №  |Theme                          | Exercises
 ---|-------------------------------|----------
-1. |Linear Data Structures - Lists | [Lab]()
+1  |Linear Data Structures - Lists | [Lab]()
+2  |                               |
 
 ### [Resources]()
