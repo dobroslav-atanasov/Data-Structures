@@ -7,9 +7,10 @@ SoftUni course Data Structures - January 2018: All tasks with their solutions.
 
 ## Repository content:
 
-№  |Theme                                  | Exercises
----|---------------------------------------|----------
-1  |Linear Data Structures - Lists         | [Lab](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/01.%20ArrayList-Lab)
-2  |Linear Data Structures - Linked List   | [Lab](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/02.%20LinkedList-Lab)
+№  |Theme                                    | Exercises
+---|-----------------------------------------|----------
+1  |Linear Data Structures - ArrayList       | [Lab](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/01.%20ArrayList-Lab)
+2  |Linear Data Structures - Linked List     | [Lab](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/02.%20LinkedList-Lab)
+3  |Linear Data Structures - Circular Queue  | [Lab](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/03.%20CircularQueue-Lab)
 
 ### [Resources](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/Resources)
