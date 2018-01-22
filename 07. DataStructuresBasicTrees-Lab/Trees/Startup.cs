@@ -22,6 +22,12 @@ public class Startup
         tree.Each(c => Console.Write(" " + c));
         Console.WriteLine();
 
+        Console.Write("DFS order: ");
+        Console.WriteLine(string.Join(" ", tree.OrderDFS()));
+
+        Console.Write("DFS order: ");
+        Console.WriteLine(string.Join(" ", tree.OrderBFS()));
+
         Console.WriteLine();
 
         var binaryTree =

@@ -31,7 +31,6 @@ public class Tree<T>
     public void Each(Action<T> action)
     {
         action(this.Value);
-
         foreach (Tree<T> child in this.Children)
         {
             child.Each(action);
@@ -40,36 +39,36 @@ public class Tree<T>
 
     public IEnumerable<T> OrderDFS()
     {
-        List<T> result = new List<T>();
-        this.DFS(this, result);
-        return result;
+        List<T> order = new List<T>();
+        this.DFS(this, order);
+        return order;
     }
 
-    private void DFS(Tree<T> tree, List<T> result)
+    private void DFS(Tree<T> tree, List<T> order)
     {
         foreach (Tree<T> child in tree.Children)
         {
-            this.DFS(child, result);
+            child.DFS(child, order);
         }
-        result.Add(tree.Value);
+        order.Add(tree.Value);
     }
 
     public IEnumerable<T> OrderBFS()
     {
-        List<T> result = new List<T>();
+        List<T> order = new List<T>();
         Queue<Tree<T>> queue = new Queue<Tree<T>>();
 
         queue.Enqueue(this);
-
         while (queue.Count > 0)
         {
-            Tree<T> currentTree = queue.Dequeue();
-            result.Add(currentTree.Value);
-            foreach (Tree<T> child in currentTree.Children)
+            Tree<T> tree = queue.Dequeue();
+            order.Add(tree.Value);
+            foreach (Tree<T> child in tree.Children)
             {
                 queue.Enqueue(child);
             }
         }
-        return result;
+
+        return order;
     }
 }

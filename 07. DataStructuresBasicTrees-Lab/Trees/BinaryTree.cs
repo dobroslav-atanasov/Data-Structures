@@ -4,14 +4,14 @@ public class BinaryTree<T>
 {
     public T Value { get; set; }
 
-    public BinaryTree<T> LefChild { get; set; }
+    public BinaryTree<T> LeftChild { get; set; }
 
     public BinaryTree<T> RightChild { get; set; }
 
     public BinaryTree(T value, BinaryTree<T> leftChild = null, BinaryTree<T> rightChild = null)
     {
         this.Value = value;
-        this.LefChild = leftChild;
+        this.LeftChild = leftChild;
         this.RightChild = rightChild;
     }
 
@@ -19,10 +19,9 @@ public class BinaryTree<T>
     {
         Console.Write(new string(' ', 2 * indent));
         Console.WriteLine(this.Value);
-
-        if (this.LefChild != null)
+        if (this.LeftChild != null)
         {
-            this.LefChild.PrintIndentedPreOrder(indent + 1);
+            this.LeftChild.PrintIndentedPreOrder(indent + 1);
         }
         if (this.RightChild != null)
         {
@@ -32,11 +31,10 @@ public class BinaryTree<T>
 
     public void EachInOrder(Action<T> action)
     {
-        if (this.LefChild != null)
+        if (this.LeftChild != null)
         {
-            this.LefChild.EachInOrder(action);
+            this.LeftChild.EachInOrder(action);
         }
-
         action(this.Value);
         if (this.RightChild != null)
         {
@@ -46,9 +44,9 @@ public class BinaryTree<T>
 
     public void EachPostOrder(Action<T> action)
     {
-        if (this.LefChild != null)
+        if (this.LeftChild != null)
         {
-            this.LefChild.EachPostOrder(action);
+            this.LeftChild.EachPostOrder(action);
         }
         if (this.RightChild != null)
         {
