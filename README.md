@@ -8,7 +8,7 @@ SoftUni course Data Structures - January 2018: All tasks with their solutions.
 
 ## Repository content:
 
-№  |Theme                                        | Exercises
+№  |Tasks                                        | Exercises
 ---|---------------------------------------------|----------
 1  |Linear Data Structures - ArrayList           | [Exercise](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/01.%20ArrayList)
 2  |Linear Data Structures - Linked List         | [Exercise](https://github.com/dobroslav-atanasov/Data-Structures/tree/master/02.%20LinkedList)
